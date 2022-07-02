@@ -1,0 +1,34 @@
+{
+  "name": "hanzidict-backend",
+  "version": "1.0.0",
+  "description": "The REST API backend for HanziDict",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicdragon44/hanzidict.git"
+  },
+  "keywords": [
+    "hanzi",
+    "chinese",
+    "radical",
+    "dictionary",
+    "lookup"
+  ],
+  "author": "Daniel Wei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epicdragon44/hanzidict/issues"
+  },
+  "homepage": "https://github.com/epicdragon44/hanzidict#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "line-by-line": "^0.1.6",
+    "md5": "^2.3.0",
+    "sqlite3": "^5.0.8"
+  }
+}
